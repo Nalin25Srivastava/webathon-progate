@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+  
+}
+html,body{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(218, 162, 89);
+}
+#section1 {
+  height: 600px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 600px;
+  background-color: yellow;
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.set{
+  margin: 20px;
+}
+
+.navbar {
+  float: left;
+  
+  
+  width: 100%;
+  height: 60px;
+  background-color: #555;
+  overflow: none;
+  
+}
+
+.navbar a {
+  float: left;
+  text-align:center;
+  margin-right:16px;
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+.navbar .name{
+  font-size: 30px;
+  margin-left: 5px;
+  
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: inline block;
+  }
+}
+
+/* Create two equal columns that floats next to each other */
+ .column {
+  float: left;
+  height: 350px;
+} 
+
+.row h3{
+  font-size: 2em;
+} 
+.about h2{
+  background-color: burlywood;
+}
+.head{
+  font-size: 35px;
+}
+.theme p{
+  font-size: 1em;
+}
+.edu h6{
+  text-decoration: none;
+  /* text-indent: 15%; */
+  display: inline-block;
+}
+
+.edu table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+.edu{
+  display: inline-block;
+  /* border: 1px solid black; */
+  margin:  0px 20px;
+  /* left: 25%; */
+}
+
+.edu ol{
+  display:inline-block;
+}
+.row{
+  display: inline-block;
+}
+.row.column{
+  display: inline-block;
+}
+
+.card-title{
+  text-align: center;
+}
+.dp{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: block;
+  margin: 55px auto;
+}
+
+.CONicon{
+  color: white;
+  font-size: 40px;
+  display: table;
+  margin: 0 auto;
+  transform: translateX(10%);
+  /* position: absolute; */
+  bottom: 0;
+  padding-right: 10px;
+
+}
+
+.CONicon a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.CONicon img{
+  margin: 23px 4px 0px 4px;
+  width: 30px;
+}
